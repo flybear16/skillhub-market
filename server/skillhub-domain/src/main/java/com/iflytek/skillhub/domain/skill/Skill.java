@@ -63,6 +63,16 @@ public class Skill {
     @Column(name = "rating_count", nullable = false)
     private Integer ratingCount = 0;
 
+    // ===== Marketplace fields =====
+    @Column(nullable = false, precision = 10, scale = 2)
+    private BigDecimal price = BigDecimal.ZERO;
+
+    @Column(name = "pricing_model", nullable = false, length = 20)
+    private String pricingModel = "FREE";
+
+    @Column(nullable = false, length = 10)
+    private String currency = "CNY";
+
     @Column(name = "created_by")
     private String createdBy;
 
@@ -226,4 +236,12 @@ public class Skill {
     public void setHiddenBy(String hiddenBy) {
         this.hiddenBy = hiddenBy;
     }
+
+    // Marketplace getters/setters
+    public BigDecimal getPrice() { return price; }
+    public void setPrice(BigDecimal price) { this.price = price; }
+    public String getPricingModel() { return pricingModel; }
+    public void setPricingModel(String pricingModel) { this.pricingModel = pricingModel; }
+    public String getCurrency() { return currency; }
+    public void setCurrency(String currency) { this.currency = currency; }
 }

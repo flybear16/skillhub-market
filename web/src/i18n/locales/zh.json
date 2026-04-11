@@ -1353,5 +1353,22 @@
       "report": "举报通知",
       "reportDesc": "举报提交或处理完成时通知"
     }
+  },
+  "marketplace": {
+    "buyNow": "立即购买",
+    "loginToBuy": "登录后购买",
+    "purchased": "已购买",
+    "oneTime": "一次性买断",
+    "securePayment": "安全支付，7天无理由退款",
+    "wallet": "我的钱包",
+    "balance": "余额",
+    "deposit": "充值",
+    "totalIncome": "累计收入",
+    "totalSpent": "累计支出",
+    "refund": "申请退款",
+    "purchase": {
+      "success": "购买成功！",
+      "failed": "购买失败"
+    }
   }
 }
