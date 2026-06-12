@@ -1,8 +1,8 @@
 package com.iflytek.skillhub.domain.trading;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
-public interface WalletRepository extends JpaRepository<Wallet, Long> {
+public interface WalletRepository {
     Optional<Wallet> findByUserId(String userId);
+    Wallet save(Wallet wallet);
 }

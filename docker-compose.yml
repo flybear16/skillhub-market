@@ -16,7 +16,7 @@ services:
   postgres:
     image: ${POSTGRES_IMAGE:-postgres:16-alpine}
     ports:
-      - "5432:5432"
+      - "15432:5432"
     environment:
       POSTGRES_DB: skillhub
       POSTGRES_USER: skillhub
@@ -32,7 +32,7 @@ services:
   redis:
     image: ${REDIS_IMAGE:-redis:7-alpine}
     ports:
-      - "6379:6379"
+      - "16379:6379"
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 5s
@@ -42,8 +42,8 @@ services:
   minio:
     image: ${MINIO_IMAGE:-minio/minio:latest}
     ports:
-      - "9000:9000"
-      - "9001:9001"
+      - "19000:9000"
+      - "19001:9001"
     environment:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin

@@ -23,7 +23,7 @@ public final class SkillPackagePolicy {
             // Documentation
             ".md", ".txt", ".json", ".yaml", ".yml", ".html", ".css", ".csv", ".pdf",
             // Configuration and schemas
-            ".toml", ".xml", ".xsd", ".xsl", ".dtd", ".ini", ".cfg", ".env",
+            ".toml", ".xml", ".xsd", ".xsl", ".dtd", ".ini", ".cfg", ".env", ".imports",
             // Scripts and source code
             ".js", ".ts", ".py", ".sh", ".rb", ".go", ".rs", ".java", ".kt",
             ".lua", ".sql", ".r", ".bat", ".ps1", ".zsh", ".bash",
