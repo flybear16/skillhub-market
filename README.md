@@ -8,7 +8,6 @@
 
 > **AI编程 × 智能硬件实践者** · 让想法长出骨头
 
-
 ## 🎯 What is SkillMarket?
 
 SkillMarket extends the enterprise-grade SkillHub registry into a **marketplace** where skills can be bought and sold:
