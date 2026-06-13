@@ -82,3 +82,8 @@ docs/superpowers/
 # Local workspace metadata
 AGENTS.md
 CLAUDE.md
+
+# misc
+.sisyphus/
+skills/
+*.zip
